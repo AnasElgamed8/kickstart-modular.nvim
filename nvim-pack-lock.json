@@ -5,10 +5,18 @@
       "src": "https://github.com/L3MON4D3/LuaSnip",
       "version": "2.0.0 - 3.0.0"
     },
+    "betterTerm.nvim": {
+      "rev": "8111818c82a5ed01a24317f32892ad67765375b2",
+      "src": "https://github.com/CRAG666/betterTerm.nvim"
+    },
     "blink.cmp": {
       "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
       "src": "https://github.com/saghen/blink.cmp",
       "version": "1.0.0 - 2.0.0"
+    },
+    "code_runner.nvim": {
+      "rev": "2a83e56fb6c71461c1a9a008ad35e4bc4e47b4f4",
+      "src": "https://github.com/CRAG666/code_runner.nvim"
     },
     "conform.nvim": {
       "rev": "619363c30309d29ffa631e67c8183f2a72caa373",
