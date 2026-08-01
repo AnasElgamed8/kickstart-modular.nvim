@@ -10,6 +10,10 @@ require('code_runner').setup {
       'java $fileNameWithoutExt',
     },
     python = 'python3 -u',
+    go = {
+      'cd $dir &&',
+      'go run .',
+    },
     typescript = 'deno run',
     rust = {
       'cd $dir &&',
