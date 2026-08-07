@@ -106,6 +106,8 @@ local servers = {
   -- clangd = {},
   gopls = {},
   pyright = {},
+  yamlls = {},
+  bashls = {},
   -- ruff = {},
 
   -- rust_analyzer = {},
