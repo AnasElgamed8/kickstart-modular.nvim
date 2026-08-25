@@ -10,6 +10,7 @@ require('conform').setup {
       lua = true,
       python = true,
       markdown = true,
+      go = true,
     }
     if enabled_filetypes[vim.bo[bufnr].filetype] then
       return { timeout_ms = 500 }
