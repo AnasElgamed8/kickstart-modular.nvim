@@ -105,11 +105,26 @@ vim.api.nvim_create_autocmd('LspAttach', {
 local servers = {
   -- clangd = {},
   gopls = {},
-  pyright = {},
+  pyright = {
+    settings = {
+      pyright = {
+        -- Disable Pyright's import organizer so it doesn't fight with Ruff
+        disableOrganizeImports = true,
+      },
+    },
+  },
   yamlls = {},
   bashls = {},
-  -- ruff = {},
-
+  ruff = {
+    init_options = {
+      settings = {
+        -- Tell Ruff to ignore F401 (unused imports)
+        lint = { ignore = { 'F401' } },
+        -- Ensure the formatter is enabled
+        format = { preview = true },
+      },
+    },
+  },
   -- rust_analyzer = {},
   --
   -- Some languages (like typescript) have entire language plugins that can be useful:
