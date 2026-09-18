@@ -105,14 +105,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 local servers = {
   -- clangd = {},
   gopls = {},
-  pyright = {
-    settings = {
-      pyright = {
-        -- Disable Pyright's import organizer so it doesn't fight with Ruff
-        disableOrganizeImports = true,
-      },
-    },
-  },
+  pyright = {},
   yamlls = {},
   bashls = {},
   ruff = {
