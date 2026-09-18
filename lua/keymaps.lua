@@ -1,7 +1,7 @@
 -- My keymaps
 
 vim.keymap.set('n', '<leader>gp', '<cmd>cd ~/Projects/<CR>', { desc = 'Chan[G]e working directory to [P]rojects' })
-vim.keymap.set('n', '<leader>gp', '<cmd>cd ~/.config/<CR>', { desc = 'Chan[G]e working directory to [C]onfig' })
+vim.keymap.set('n', '<leader>gc', '<cmd>cd ~/.config/<CR>', { desc = 'Chan[G]e working directory to [C]onfig' })
 -- Kickstart keymaps
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
